@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+    font-family:"popins", sans-serif ;
+}
+body{
+    background-color:#9c4041;
+}
+.container{
+    background-image: url(images/01.png);
+    background-size: cover;
+    width: 100%px;
+    height: 800px;
+    display: flex;
+   
+    justify-content: center;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 20px;
+   
+}
+header{
+    border-bottom: 6px;
+}
+.nav-menu a{
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.container .nav-menu{
+    text-align: center;
+    margin-left: 400px;
+    position: fixed;
+}
+.logo{
+    width: 100px;
+    height: 60px;
+    top: 20px;
+    left: 30px;
+    position: fixed;
+}
+.Image-wrapper2{
+    display: flex;
+}
+.Image1{
+    padding: 86px 52px 20px 173px;
+}
+.Text{
+    text-align: left;
+    margin-top: 174px;
+    font-size: 20px;
+}
+.Text h1{
+    font-size: 40px;
+}
+.Text button{
+    margin-top: 50px;
+    width: 140px;
+    height: 60px;
+    background-color: transparent;
+    border-color: rgb(242, 242, 0);
+    transition: background-color 0.4s ease;
+}
+.Text button:hover{
+    background-color:rgb(242, 242, 0) ;
+  
+}
+.footer-main{
+    height: 561px;
+    width: 100%;
+    background-color: #1c1c1c;
+     
+}
+.footer1{
+    height: 200px;
+    width: 100px;
+color: azure;
+display: inline;
+
+}
+
+.footer1 h1{
+    
+    color:  rgb(242, 242, 0);
+    /* margin: 20px 150px 10px 40px ; */
+    padding-left: 213px;
+    padding-top: 100px;
+
+}
+.footer1 p{
+   padding-left: 100px;
+    color: rgb(207, 176, 2);
+    margin: 41px;
+}
+.footer1 button{
+    text-align: center;
+    position: absolute;
+    right: 100;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    border-color:rgb(207, 176, 2);
+    transition: background-color 0.4s ease;
+    margin-top: -100px;
+
+}
+.footer1 button:hover{
+    background-color:rgb(207, 176, 2)  ;
+}
+hr{
+ margin: 50px 200px;
+ height: 1px;
+ 
+background-color: aqua;
+}
+.footer2{
+ width: 100%;
+ height: 200px;
+ 
+} 
+.logo1 img{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    margin-left:225px;
+    margin-top: 60px;
+}
+ .footer-text{
+   
+    justify-content: center;
+    
+}
+.footer-text h1 {
+    
+    font-size: 20px;
+    color: rgb(207, 176, 2) ;
+    display: block;
+    line-height: 28px;
+  margin: 18px 513px 10px 650px;
+} 
+.footer-text p{
+   margin: 11px 632px 13px;
+   padding: 18px;
+   font-size: 19px;
+  line-height: 23px;
+  color: rgb(207, 176, 2)  ;
+}
+
+.u1{
+   margin: -212px 0px 0px 1060;
+    
+    line-height: 30px;
+    font-size: large;
+    
+}
+.c1{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(207, 176, 2);
+} 
